@@ -17,3 +17,5 @@ while True:
         set_pixel(x, r, g, b)
     show()
     time.sleep(0.001)
+
+set_pixel(range(0,9), 0, 0, 0)

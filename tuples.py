@@ -7,7 +7,11 @@ print(tuple) #output is (1, 2, 5, 3, 4)
 #tuple[4]=5 //
 
 tuple = (1,2,3,4,5) #However: You may overwrite the whole structure
-print(tuple) #output is (1, 2, 3, 4, 5)
-#tuple[5] = 6 //This produces an error, but...
-tuple = (0,0,0,0,0,0) #you can resize a tuple like this
+print(tuple)        #output is (1, 2, 3, 4, 5)
+
+#tuple[5] = 6         # This produces an error, but
+tuple = (0,0,0,0,0,0) # you can resize a tuple like this
 print(tuple)
+print(tuple[:2]) # All of the string operations seen previously
+print(len(tuple))# can be used with lists and tuples
+print(tuple[4])

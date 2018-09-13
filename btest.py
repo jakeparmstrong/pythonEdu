@@ -5,6 +5,6 @@ set_brightness(0.1)
 while True:
   for var in range(0,8):
     clear()
-    set_pixel(var, 225, 0, 0)
+    set_pixel(0, 0 , 0, 0)
     show()
-    time.sleep(0.05)
+    time.sleep(0.002)
